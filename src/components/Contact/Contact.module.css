@@ -1,0 +1,29 @@
+.text {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+}
+
+.btn {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
